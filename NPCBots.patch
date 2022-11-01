@@ -58982,8 +58982,8 @@ index 00000000..24605010
 +        return;
 +
 +    _enableNpcBots                  = sConfigMgr->GetBoolDefault("NpcBot.Enable", true);
-+    _maxNpcBots                     = sConfigMgr->GetIntDefault("NpcBot.MaxBots", 1);
-+    _maxClassNpcBots                = sConfigMgr->GetIntDefault("NpcBot.MaxBotsPerClass", 1);
++    _maxNpcBots                     = sConfigMgr->GetIntDefault("NpcBot.MaxBots", 39);
++    _maxClassNpcBots                = sConfigMgr->GetIntDefault("NpcBot.MaxBotsPerClass", 39);
 +    _filterRaces                    = sConfigMgr->GetBoolDefault("NpcBot.Botgiver.FilterRaces", false);
 +    _basefollowdist                 = sConfigMgr->GetIntDefault("NpcBot.BaseFollowDistance", 30);
 +    _xpReductionNpcBots             = sConfigMgr->GetIntDefault("NpcBot.XpReduction", 0);
@@ -72565,7 +72565,7 @@ index 442681e6..f121626c 100644
 +#        Default:     1
 +#        Max:         39
 +
-+NpcBot.MaxBots = 1
++NpcBot.MaxBots = 39
 +
 +#
 +#    NpcBot.MaxBotsPerClass
